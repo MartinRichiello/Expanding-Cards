@@ -1,12 +1,45 @@
 
 
 *{
-
+        box-sizing: border-box;
 
 }
 
 body{
         background-color: #c4c4c2;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
 
+}
+
+.container{
+        border: 3px solid black;
+        display: flex;
+        height: 90vh
+}
+
+
+.panel{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        flex: 0.5;
+        margin: 10px;
+        position: relative;
+        /*NEED FOR A TRANSITION*/
+}
+
+.panel h3{
+
+        
 }
 
